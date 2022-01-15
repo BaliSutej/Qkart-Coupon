@@ -1,0 +1,21 @@
+{
+    "coupons": [
+        {
+            "code": "NEWYEAR2022",
+            "startdate": "01/12/2021",
+            "enddate": "16/01/2022",
+            "minimum_amount": 2000,
+            "type": "flat",
+            "discount_price": 300
+        },
+        {
+            "code": "NEWYEAR2023",
+            "startdate": "01/12/2022",
+            "enddate": "10/01/2023",
+            "minimum_amount": 2000,
+            "type": "percentage",
+            "discount_percentage": 15,
+            "max_discount_price": 300
+        }
+    ]
+}

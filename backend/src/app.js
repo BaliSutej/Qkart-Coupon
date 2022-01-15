@@ -3,8 +3,8 @@ const cors = require('cors');
 const app = express();
 const bodyParser = require("body-parser");
 
-const { validateCoupon } = require('./validation/coupon.validation.js');
-const { getCouponDiscount } = require('./controller/coupon.controller.js');
+const { validateCoupon } = require('./validations/coupon.validation.js');
+const { getCouponDiscount , getAllCoupons} = require('./controllers/coupon.controller.js');
 
 // enable cors 
 app.use(cors());
@@ -19,6 +19,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // });
 
 app.get("/getdiscount",validateCoupon,getCouponDiscount);
+
+app.get("/all-coupons",getAllCoupons);
 
 app.use((req, res, next) => {
     console.log("Hey There !");

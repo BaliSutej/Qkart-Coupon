@@ -1,10 +1,10 @@
 # Qkart-Coupon
 
-1. Endpoint to get all coupons - https://qkart-coupon-backend.herokuapp.com/all-coupons
-2. Endpoint to apply coupon on some amount - https://qkart-coupon-backend.herokuapp.com/get-discount
+1. Endpoint to get all coupons - GET https://qkart-coupon-backend.herokuapp.com/all-coupons
+2. Endpoint to apply coupon on some amount - GET https://qkart-coupon-backend.herokuapp.com/get-discount
     Accepts 2 query parameters - couponcode and amount 
     example - https://qkart-coupon-backend.herokuapp.com/get-discount?couponcode=NEWYEAR2022&amount=3000
-3. Endpoint to create new coupon - https://qkart-coupon-backend.herokuapp.com/create-coupon
+3. Endpoint to create new coupon - POST https://qkart-coupon-backend.herokuapp.com/create-coupon
     body should contain data in below format 
     example  - for coupon of type flat - 
     {

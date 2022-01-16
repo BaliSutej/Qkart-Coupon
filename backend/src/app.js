@@ -13,10 +13,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-// app.get("/",function(req,res,next){
-//     console.log("Hey in Get");
-//     return res.send({"hi":"hi"});
-// });
 
 app.get("/get-discount",validateCoupon,getCouponDiscount);
 
@@ -25,15 +21,10 @@ app.get("/all-coupons",getAllCoupons);
 app.post("/create-coupon",validateNewCoupon,createCoupon);
 
 app.use((req, res, next) => {
-    console.log("Hey There !");
     res.statusCode = 404;
-    res.send({ "error": "Not Found" });
+    res.send({ "error": "Endpoint Not Found" });
 });
 
-
-// app.listen(8081,function(){
-//     console.log("Application running on 8081");
-// });
 
 
 module.exports = app;

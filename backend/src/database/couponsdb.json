@@ -19,11 +19,72 @@
     },
     {
       "code": "QKART700",
+      "startdate": "2022-01-16",
+      "enddate": "2022-01-30",
+      "minimum_amount": 6000,
+      "type": "flat",
+      "discount_price": 700
+    },
+    {
+      "code": "QKART701",
+      "startdate": "2022-01-17",
+      "enddate": "2022-01-30",
+      "minimum_amount": 6000,
+      "type": "flat",
+      "discount_price": 700
+    },
+    {
+      "code": "QKART801",
       "startdate": "2022-01-01",
       "enddate": "2022-01-14",
       "minimum_amount": 6000,
       "type": "flat",
-      "discount_price": 700
+      "discount_price": 801
+    },
+    {
+      "code": "QKART81",
+      "startdate": "2022-01-01",
+      "minimum_amount": 6000,
+      "type": "flat",
+      "discount_price": 801
+    },
+    {
+      "code": "QKART981",
+      "startdate": "2022-01-01",
+      "enddate": "2022-01-14",
+      "type": "flat",
+      "discount_price": 801
+    },
+    {
+      "code": "QKAT81",
+      "startdate": "2022-01-01",
+      "enddate": "2022-01-14",
+      "minimum_amount": 6000,
+      "type": "flat"
+    },
+    {
+      "code": "QKA81",
+      "startdate": "2022-01-01",
+      "enddate": "2022-01-14",
+      "minimum_amount": 6000,
+      "type": "percentage"
+    },
+    {
+      "code": "QKA2781",
+      "startdate": "2022-01-01",
+      "enddate": "2022-01-14",
+      "minimum_amount": 6000,
+      "type": "percentage",
+      "discount_percentage": 10,
+      "max_discount_price": 300
+    },
+    {
+      "code": "QKA27810",
+      "startdate": "2022-01-01",
+      "enddate": "2022-01-14",
+      "minimum_amount": 6000,
+      "type": "flat",
+      "discount_price": 900
     }
   ]
 }
